@@ -1,0 +1,57 @@
+.focus {
+  background: linear-gradient(180deg, #e9faff 0%, rgba(233, 250, 255, 0) 100%);
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 70px;
+    gap: 0 110px;
+  }
+  &-header {
+    margin-top: -20%;
+  }
+  &-heading {
+    font-weight: 450;
+    font-size: 36px;
+    max-width: 406px;
+  }
+  &-content {
+    max-width: 446px;
+  }
+  &-desc1 {
+    max-width: 430px;
+    margin-bottom: 40px;
+  }
+  &-desc2 {
+    max-width: 430px;
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 1024px) {
+    &-container {
+      margin-left: 30px;
+    }
+  }
+  @media screen and (max-width: 1023px) {
+    &-container {
+      margin-left: 30px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    background: linear-gradient(
+      -10deg,
+      #e9faff 0%,
+      rgba(233, 250, 255, 0) 100%
+    );
+    &-container {
+      flex-direction: column;
+      gap: 40px;
+      margin-top: 60px;
+    }
+    &-content {
+      margin-bottom: 20px;
+    }
+    &-desc2 {
+      margin-bottom: 20px;
+    }
+  }
+}

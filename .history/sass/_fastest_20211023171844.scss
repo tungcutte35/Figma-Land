@@ -1,0 +1,19 @@
+.fastest {
+  &-container {
+    margin: 0 auto;
+    max-width: 460px;
+  }
+  &-header {
+    text-align: center;
+  }
+  &-type {
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    color: #f3cd03;
+    font-weight: 450;
+    margin-bottom: 17px;
+  }
+  &-heading {
+    margin-bottom: 7px;
+  }
+}

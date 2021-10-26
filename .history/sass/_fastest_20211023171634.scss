@@ -1,0 +1,12 @@
+.fastest {
+  &-container {
+    margin: 0 auto;
+  }
+  &-header {
+    text-align: center;
+  }
+  &-type {
+    font-size: 36px;
+    line-height: calc(42 / 36);
+  }
+}

@@ -1,0 +1,10 @@
+.lightning {
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &-header {
+    max-width: 510px;
+  }
+}

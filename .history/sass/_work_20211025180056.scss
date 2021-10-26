@@ -1,0 +1,48 @@
+.work {
+  margin-bottom: 200px;
+  &-container {
+    text-align: center;
+  }
+  &-heading {
+    margin-bottom: 10px;
+  }
+  &-content {
+    font-size: 19px;
+    line-height: calc(30 / 19);
+    font-weight: 450;
+    margin-bottom: 52px;
+  }
+  &-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7px;
+  }
+  &-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 190px;
+    margin-bottom: 40px;
+  }
+  &-facebook {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    font-weight: 400;
+    color: #505d6f;
+  }
+  &-data {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    font-weight: 700;
+    color: #505d70;
+  }
+  @media screen and (max-width: 767px) {
+    margin-bottom: 130px;
+    &-heading {
+      margin-bottom: 20px;
+    }
+    &-desc {
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.testimonial {
+  margin-bottom: 110px;
+  &-container {
+    text-align: center;
+    position: relative;
+  }
+  &-heading {
+    margin-bottom: 50px;
+  }
+  &-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  &-content {
+    max-width: 480px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  &-author {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-desc {
+    margin-left: 15px;
+    text-align: start;
+  }
+  &-name {
+    font-size: 18px;
+    line-height: calc(20 / 18);
+    font-weight: 450;
+    color: #20262a;
+  }
+  &-job {
+    font-size: 18px;
+    line-height: calc(28 / 18);
+    color: $text-color;
+    font-weight: 450;
+  }
+  &-vector1 {
+    position: absolute;
+    // left: 0;
+    // top: 471.87px;
+  }
+}

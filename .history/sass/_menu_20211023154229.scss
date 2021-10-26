@@ -1,0 +1,10 @@
+.menu {
+  display: flex;
+
+  gap: 0 41px;
+  &-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

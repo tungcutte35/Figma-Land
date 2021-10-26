@@ -1,0 +1,16 @@
+.pricing {
+  background: #182333;
+
+  &-container {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 165px;
+    padding: 100px 0;
+  }
+  &-heading {
+    color: white;
+    margin-bottom: 16px;
+  }
+}

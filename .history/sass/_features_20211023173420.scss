@@ -1,0 +1,7 @@
+.features {
+  &-container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 100px 0;
+  }
+}

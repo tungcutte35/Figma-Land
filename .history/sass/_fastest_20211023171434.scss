@@ -1,0 +1,9 @@
+.fastest {
+  &-container {
+    margin: 0 auto;
+  }
+  &-header {
+    display: flex;
+    align-items: center;
+  }
+}

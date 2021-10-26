@@ -1,0 +1,30 @@
+.testimonial {
+  &-container {
+    text-align: center;
+    padding-top: 62px;
+  }
+  &-heading {
+    margin-bottom: 50px;
+  }
+  &-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  &-content {
+    max-width: 5500px;
+    margin: 0 auto;
+    font-size: 19px;
+    line-height: calc(30 / 19);
+    color: $text-color;
+    margin-bottom: 50px;
+  }
+
+  &-author {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

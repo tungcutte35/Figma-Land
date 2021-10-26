@@ -1,0 +1,12 @@
+.footer {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-content {
+    font-size: 18px;
+    line-height: calc(28 / 18);
+    font-weight: 450;
+  }
+}

@@ -1,0 +1,39 @@
+.footer {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-logo {
+    height: 58px;
+    max-width: 206px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &-content {
+    font-size: 18px;
+    line-height: calc(28 / 18);
+    font-weight: 450;
+  }
+  &-seconds {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 31px;
+  }
+  &-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 35px;
+  }
+  &-link {
+    font-size: 18px;
+    line-height: calc(20 / 18);
+    font-weight: 450;
+    color: $heading-color;
+  }
+}

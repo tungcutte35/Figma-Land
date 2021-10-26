@@ -1,0 +1,51 @@
+.pricing {
+  background: #182333;
+
+  &-container {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 160px;
+    padding: 100px 70px;
+  }
+  &-content {
+    max-width: 437px;
+  }
+  &-heading {
+    color: white;
+    margin-bottom: 16px;
+  }
+  &-desc {
+    color: white;
+    max-width: 400px;
+  }
+  &-buy {
+    max-width: 277px;
+  }
+  &-time {
+    font-size: 18px;
+    line-height: calc(28 / 18);
+    font-weight: 450;
+    margin-bottom: 10px;
+  }
+  &-price {
+    margin-bottom: 20px;
+  }
+  &-third {
+    max-width: 250px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  @media screen and (max-width: 767px) {
+    &-container {
+      flex-direction: column;
+      gap: 0 60px;
+    }
+    &-content {
+    }
+    &-thỉrd {
+      margin-bottom: 100px;
+    }
+  }
+}

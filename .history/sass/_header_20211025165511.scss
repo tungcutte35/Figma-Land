@@ -1,0 +1,25 @@
+.header {
+  margin-top: 30px;
+  margin-bottom: 91px;
+
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 20px;
+  }
+  &-toggle {
+    display: none;
+  }
+  @media screen and (max-width: 767px) {
+    &-toggle {
+      display: block;
+      width: 100%;
+    }
+  }
+}

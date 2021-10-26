@@ -1,0 +1,27 @@
+.work {
+  margin-bottom: 62px;
+  &-container {
+    text-align: center;
+  }
+  &-heading {
+    margin-bottom: 10px;
+  }
+  &-content {
+    font-size: 19px;
+    line-height: calc(30 / 19);
+    font-weight: 450;
+    margin-bottom: 52px;
+  }
+  &-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7px;
+  }
+  &-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 190px;
+  }
+}

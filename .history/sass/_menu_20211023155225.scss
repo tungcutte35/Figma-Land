@@ -1,0 +1,26 @@
+.menu {
+  display: flex;
+
+  gap: 0 41px;
+  &-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &-link {
+    color: inherit;
+    &:after {
+      display: block;
+      content: "";
+      border-bottom: solid 2px $primary-color;
+      // transform: scaleX(0);
+      transition: width 0.3s;
+    }
+    &:hover:after {
+      width: 100%;
+    }
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}

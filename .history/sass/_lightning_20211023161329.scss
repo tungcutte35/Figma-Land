@@ -1,0 +1,21 @@
+.lightning {
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &-header {
+    margin: 0 auto;
+    text-align: center;
+  }
+  &-heading {
+    max-width: 510px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: calc(78 / 72);
+    color: $secondary-color;
+  }
+  &-content {
+    max-width: 544px;
+  }
+}

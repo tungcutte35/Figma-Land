@@ -1,0 +1,16 @@
+.header {
+  margin-top: 30px;
+  margin-bottom: 91px;
+
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 20px;
+  }
+}

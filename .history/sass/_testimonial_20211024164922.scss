@@ -1,0 +1,17 @@
+.testimonial {
+  &-container {
+    text-align: center;
+  }
+  &-heading {
+    margin-bottom: 50px;
+  }
+  &-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &-content {
+    max-width: 550px;
+    text-align: center;
+  }
+}

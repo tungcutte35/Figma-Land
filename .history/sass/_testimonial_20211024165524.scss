@@ -1,0 +1,24 @@
+.testimonial {
+  &-container {
+    text-align: center;
+  }
+  &-heading {
+    margin-bottom: 50px;
+  }
+  &-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  &-desc {
+    max-width: 550px;
+    margin-bottom: 50px;
+  }
+  &-author {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

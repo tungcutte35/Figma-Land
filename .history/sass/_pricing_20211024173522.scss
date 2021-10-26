@@ -1,0 +1,22 @@
+.pricing {
+  background: #182333;
+
+  &-container {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 70px;
+  }
+  &-content {
+    max-width: 437px;
+  }
+  &-heading {
+    color: white;
+    margin-bottom: 16px;
+  }
+  &-desc {
+    color: white;
+    max-width: 400px;
+  }
+}

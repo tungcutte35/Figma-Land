@@ -1,0 +1,48 @@
+.lightning {
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 25px;
+    position: relative;
+  }
+  &-header {
+    text-align: center;
+    margin: 0 auto;
+
+    max-width: 544px;
+  }
+  &-heading {
+    max-width: 510px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: calc(78 / 72);
+    color: $secondary-color;
+    margin-bottom: 27px;
+  }
+  &-content {
+    margin-bottom: 84px;
+  }
+  &-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 25px;
+    margin-bottom: 45px;
+  }
+  &-vector1 {
+    position: absolute;
+    left: -10%;
+    bottom: -80%;
+  }
+  &-vector2 {
+    position: absolute;
+    right: -9%;
+    bottom: -95%;
+  }
+  &-img {
+    position: absolute;
+    bottom: -158%;
+    z-index: 1;
+  }
+}
